@@ -6,3 +6,18 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Roomwindow from "./RoomWindow";
+import Backpack from "./Backpack";
+
+const windowObj = new Roomwindow(3, false, true);
+
+console.log("Before", windowObj.isMasquitoProof);
+
+windowObj.masquitoProof(true);
+
+console.log("After", windowObj.isMasquitoProof);
+
+const bp = new Backpack("abc", 3, "red", 4, 25, 25, false);
+
+console.log(bp);

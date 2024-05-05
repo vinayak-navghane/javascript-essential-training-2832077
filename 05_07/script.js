@@ -51,3 +51,15 @@ const content = `
 `;
 
 main.innerHTML = content;
+
+// document.querySelector(".site-title").style.color = "red"
+
+// document.querySelector("main article h1").setAttribute("lidopen","true")
+
+// document.querySelector("main article h1").setAttribute("data-backpack","heavy")
+
+// document.querySelector("main article h1").getAttribute("data-backpack")
+
+// document.querySelector("main article h1").removeAttribute("data-backpack")
+
+// document.querySelector("main article h1").style.color= "orange"

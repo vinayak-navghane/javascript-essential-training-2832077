@@ -11,11 +11,13 @@ document.querySelector(".left .color-value").innerHTML = color;
 color = "skyblue";
 
 function headingColor() {
-  color = "blue";
-  document.querySelector(".title").style.color = color;
+  let titleColor = "blue";
+  document.querySelector(".title").style.color = titleColor;
+  console.log("inside :", titleColor);
 }
 
 headingColor();
+// console.log("outside :", titleColor); //error because of titleColor is locally scoped variable
 
 document.querySelector(".right").style.backgroundColor = color;
 document.querySelector(".right .color-value").innerHTML = color;

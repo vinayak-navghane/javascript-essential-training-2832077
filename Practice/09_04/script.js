@@ -14,3 +14,24 @@ cellOne.addEventListener("mouseenter", () => {
 cellOne.addEventListener("mouseleave", () => {
   cellOne.style.outline = "";
 });
+
+const cellTwo = document.querySelector(".cell02");
+cellTwo.addEventListener("mousemove", () => {
+  cellTwo.style.backgroundColor === ""
+    ? (cellTwo.style.backgroundColor = "green")
+    : (cellTwo.style.backgroundColor = "");
+});
+
+const cellThree = document.querySelector(".cell03");
+cellThree.addEventListener("click", () => {
+  cellThree.style.backgroundColor === ""
+    ? (cellThree.style.backgroundColor = "yellow")
+    : (cellThree.style.backgroundColor = "");
+});
+
+const cellFour = document.querySelector(".cell04");
+cellThree.addEventListener("dbleclick", () => {
+  cellFour.style.backgroundColor === ""
+    ? (cellFour.style.backgroundColor = "yellow")
+    : (cellFour.style.backgroundColor = "");
+});
